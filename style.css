@@ -1,0 +1,37 @@
+* {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+body{ 
+background-color: blue;
+color: white;
+}
+
+/*navigation bar*/
+.navbar {
+
+position:  sticky;
+top: 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 10px;
+padding: 10px;
+background-color:green;
+z-index: 1;
+}
+.navbar a {
+	color:yellow
+	text-decoration: none;
+}
+.footer {
+	display: flex;
+	justify-content: flex-end;
+	bottom: 0;
+}
+.footer img {
+	height: 60px;
+	width:auto;
+	border: none;
+	margin: 0;
+}
+/* end navigation bar*/

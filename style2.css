@@ -1,0 +1,35 @@
+body, html {
+  width:100%;
+  height:100%;
+  background: url("sports.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  background-color: none;
+}
+
+.text-uppercase {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: Black;
+  font-size: 5em;
+}
+
+.buffer {
+  height: 200px;
+}
+
+.btn-outline-secondary {
+  background-color: none;
+  font-size: 3em;
+  border: none;
+  text-decoration-color:black
+}
+
+a {
+  color: white;
+  text-shadow: 2px 2px black;
+}
